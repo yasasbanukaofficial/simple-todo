@@ -1,0 +1,52 @@
+body {
+    background-image: linear-gradient(to bottom right, rgb(0, 0, 255, 0.8), rgb(128, 0, 128, 1));
+    height: 1080px;
+}
+
+#todoListContainer {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 20px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: white;
+    height: auto;
+    width: 600px;
+    border-radius: 25px;
+    font-family: fantasy;
+    font-weight: 600;
+    color: rgb(0, 0, 97);
+}
+
+#title {
+    font-weight: 100;
+    text-align: center;
+}
+
+input {
+    height: 40px;
+    width: 470px;
+    border-radius: 60px;
+    border: none;
+    background-color: rgba(199, 197, 197, 0.432);
+    padding-left: 20px;
+    cursor: text;
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+
+button {
+    height: 45px;
+    width: 100px;
+    border-radius: 60px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(255, 68, 0, 0.623);
+}
